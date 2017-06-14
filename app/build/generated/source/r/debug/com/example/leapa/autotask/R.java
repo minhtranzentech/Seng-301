@@ -2284,7 +2284,7 @@ containing a value of this type.
         public static final int notify_panel_notification_icon_bg=0x7f02005c;
     }
     public static final class id {
-        public static final int AppList=0x7f0b0061;
+        public static final int AppList=0x7f0b005f;
         public static final int CondList=0x7f0b005e;
         public static final int action0=0x7f0b0065;
         public static final int action_bar=0x7f0b004f;
@@ -2392,7 +2392,7 @@ containing a value of this type.
         public static final int text2=0x7f0b0075;
         public static final int textSpacerNoButtons=0x7f0b003d;
         public static final int textSpacerNoTitle=0x7f0b003c;
-        public static final int textView3=0x7f0b005f;
+        public static final int textView3=0x7f0b0061;
         public static final int time=0x7f0b006d;
         public static final int title=0x7f0b0035;
         public static final int titleDividerNoCustom=0x7f0b0044;

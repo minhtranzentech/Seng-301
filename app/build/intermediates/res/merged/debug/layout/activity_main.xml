@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,9 +9,13 @@
     <Spinner
         android:id="@+id/CondList"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/AppList"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignTop="@+id/AppList"
+        android:background="@android:color/holo_blue_bright"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="41dp" />
 
 
     <TextView
@@ -20,7 +24,9 @@
         android:layout_height="wrap_content"
         android:text="OPEN"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/AppList" />
 
     <TextView
         android:id="@+id/text"
@@ -28,14 +34,22 @@
         android:layout_height="wrap_content"
         android:text="WHEN"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="68dp" />
 
     <Spinner
         android:id="@+id/AppList"
-        android:layout_width="0dp"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/holo_blue_bright"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
 
