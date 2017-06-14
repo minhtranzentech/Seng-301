@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     Spinner spinnerapplist;
     Spinner conditionlist;
+    Spinner onoff;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,15 +30,34 @@ public class MainActivity extends AppCompatActivity {
         arrayapp.add("Youtube");
         arrayapp.add("Google map");
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_spinner_dropdown_item,arrayapp);
- //       arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        spinnerapplist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                Toast.makeText(MainActivity.this, arrayapp.get(position),Toast.LENGTH_SHORT).show();
-//            }
-//        });
+        arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         spinnerapplist.setAdapter(arrayAdapter);
 
+
+        ////////
+        conditionlist=(Spinner)findViewById(R.id.CondList);
+        final ArrayList<String> arraycond=new ArrayList<String>();
+        arraycond.add("WIFI");
+        arraycond.add("BLUETOOTH");
+        arraycond.add("6 p.m");
+        ArrayAdapter arrayAdapter1=new ArrayAdapter(this,android.R.layout.simple_spinner_dropdown_item,arraycond);
+        arrayAdapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        conditionlist.setAdapter(arrayAdapter1);
+
+        /////
+        onoff=(Spinner)findViewById(R.id.Onoff);
+        final ArrayList<String> arrayonoff=new ArrayList<String>();
+        arrayonoff.add("ON");
+        arrayonoff.add("OFF");
+        ArrayAdapter arrayAdapter2=new ArrayAdapter(this,android.R.layout.simple_spinner_dropdown_item,arrayonoff);
+        arrayAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        onoff.setAdapter(arrayAdapter2);
+
+//        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+//        spinner.setOnItemSelectedListener(this);
 
    }
 }

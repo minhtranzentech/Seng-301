@@ -6,26 +6,23 @@
     density="mdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1497403018753"
+    timestamp="1497404803500"
     token="-4556910279114220746"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="172" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
-    <artifact
-        location="F:\Working docs\IT\Android\Autotask\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
     <artifact
         location="F:\Working docs\IT\Android\Autotask\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -73,19 +70,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497402983271"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="F:\Working docs\IT\Android\Autotask\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497403018753"
+        timestamp="1497404748811"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="F:\Working docs\IT\Android\Autotask\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1497404803500"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="F:\Working docs\IT\Android\Autotask\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
