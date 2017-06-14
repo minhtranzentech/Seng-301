@@ -1,0 +1,4 @@
+#Fri Jun 09 11:55:00 MDT 2017
+base.0=F\:\\Working docs\\IT\\Android\\Autotask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
+renamed.0=classes.dex
+file.0=F\:\\Working docs\\IT\\Android\\Autotask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex
